@@ -28,7 +28,7 @@ function Signin() {
   return (
     <div
       style={{
-        height: "80git vh",
+        height: "90vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -52,7 +52,7 @@ function Signin() {
             color: "#333",
           }}
         >
-          Sign In
+          Sign In 
         </h2>
         <div style={{ width: 200 }}>
           <Lottie animationData={loading} loop={true} />
